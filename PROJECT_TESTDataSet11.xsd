@@ -1,0 +1,110 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="PROJECT_TESTDataSet1" targetNamespace="http://tempuri.org/PROJECT_TESTDataSet11.xsd" xmlns:mstns="http://tempuri.org/PROJECT_TESTDataSet11.xsd" xmlns="http://tempuri.org/PROJECT_TESTDataSet11.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+          <Connection AppSettingsObjectName="Settings" AppSettingsPropertyName="PROJECT_TEST" ConnectionStringObject="" IsAppSettingsProperty="true" Modifier="Assembly" Name="PROJECT_TEST (Settings)" ParameterPrefix="@" PropertyReference="ApplicationSettings.Flex_Trainer.Properties.Settings.GlobalReference.Default.PROJECT_TEST" Provider="System.Data.SqlClient" />
+        </Connections>
+        <Tables>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="REPORT_2TableAdapter" GeneratorDataComponentClassName="REPORT_2TableAdapter" Name="REPORT_2" UserDataComponentName="REPORT_2TableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="PROJECT_TEST (Settings)" DbObjectName="PROJECT_TEST.dbo.REPORT_2" DbObjectType="View" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="false" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT UserID, FName, LName, Gender, Address, Phone_No, Username, PlanID, Plan_Name, Name FROM dbo.REPORT_2</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="UserID" DataSetColumn="UserID" />
+              <Mapping SourceColumn="FName" DataSetColumn="FName" />
+              <Mapping SourceColumn="LName" DataSetColumn="LName" />
+              <Mapping SourceColumn="Gender" DataSetColumn="Gender" />
+              <Mapping SourceColumn="Address" DataSetColumn="Address" />
+              <Mapping SourceColumn="Phone_No" DataSetColumn="Phone_No" />
+              <Mapping SourceColumn="Username" DataSetColumn="Username" />
+              <Mapping SourceColumn="PlanID" DataSetColumn="PlanID" />
+              <Mapping SourceColumn="Plan_Name" DataSetColumn="Plan_Name" />
+              <Mapping SourceColumn="Name" DataSetColumn="Name" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+        </Tables>
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="PROJECT_TESTDataSet1" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="True" msprop:Generator_UserDSName="PROJECT_TESTDataSet1" msprop:Generator_DataSetName="PROJECT_TESTDataSet1">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="REPORT_2" msprop:Generator_RowEvHandlerName="REPORT_2RowChangeEventHandler" msprop:Generator_RowDeletedName="REPORT_2RowDeleted" msprop:Generator_RowDeletingName="REPORT_2RowDeleting" msprop:Generator_RowEvArgName="REPORT_2RowChangeEvent" msprop:Generator_TablePropName="REPORT_2" msprop:Generator_RowChangedName="REPORT_2RowChanged" msprop:Generator_RowChangingName="REPORT_2RowChanging" msprop:Generator_TableClassName="REPORT_2DataTable" msprop:Generator_RowClassName="REPORT_2Row" msprop:Generator_TableVarName="tableREPORT_2" msprop:Generator_UserTableName="REPORT_2">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="UserID" msprop:Generator_ColumnPropNameInRow="UserID" msprop:Generator_ColumnPropNameInTable="UserIDColumn" msprop:Generator_ColumnVarNameInTable="columnUserID" msprop:Generator_UserColumnName="UserID" type="xs:unsignedByte" />
+              <xs:element name="FName" msprop:Generator_ColumnPropNameInRow="FName" msprop:Generator_ColumnPropNameInTable="FNameColumn" msprop:Generator_ColumnVarNameInTable="columnFName" msprop:Generator_UserColumnName="FName">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="LName" msprop:Generator_ColumnPropNameInRow="LName" msprop:Generator_ColumnPropNameInTable="LNameColumn" msprop:Generator_ColumnVarNameInTable="columnLName" msprop:Generator_UserColumnName="LName">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Gender" msprop:Generator_ColumnPropNameInRow="Gender" msprop:Generator_ColumnPropNameInTable="GenderColumn" msprop:Generator_ColumnVarNameInTable="columnGender" msprop:Generator_UserColumnName="Gender">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Address" msprop:Generator_ColumnPropNameInRow="Address" msprop:Generator_ColumnPropNameInTable="AddressColumn" msprop:Generator_ColumnVarNameInTable="columnAddress" msprop:Generator_UserColumnName="Address">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Phone_No" msprop:Generator_ColumnPropNameInRow="Phone_No" msprop:Generator_ColumnPropNameInTable="Phone_NoColumn" msprop:Generator_ColumnVarNameInTable="columnPhone_No" msprop:Generator_UserColumnName="Phone_No">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Username" msprop:Generator_ColumnPropNameInRow="Username" msprop:Generator_ColumnPropNameInTable="UsernameColumn" msprop:Generator_ColumnVarNameInTable="columnUsername" msprop:Generator_UserColumnName="Username">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="PlanID" msprop:Generator_ColumnPropNameInRow="PlanID" msprop:Generator_ColumnPropNameInTable="PlanIDColumn" msprop:Generator_ColumnVarNameInTable="columnPlanID" msprop:Generator_UserColumnName="PlanID" type="xs:unsignedByte" />
+              <xs:element name="Plan_Name" msprop:Generator_ColumnPropNameInRow="Plan_Name" msprop:Generator_ColumnPropNameInTable="Plan_NameColumn" msprop:Generator_ColumnVarNameInTable="columnPlan_Name" msprop:Generator_UserColumnName="Plan_Name">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Name" msprop:Generator_ColumnPropNameInRow="Name" msprop:Generator_ColumnPropNameInTable="NameColumn" msprop:Generator_ColumnVarNameInTable="columnName" msprop:Generator_UserColumnName="Name">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
