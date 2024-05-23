@@ -1,0 +1,21 @@
+WorkoutID,Workout Name,User ID,Exercise 1,Exercise 2,Exercise 3
+1,Full Body Workout,1,15,3,10
+2,Upper Body Strength,2,2,5,13
+3,Lower Body Blast,2,1,11,18
+4,Cardio Rush,1,19,14,8
+5,Core Circuit,4,12,20,6
+6,Strength and Conditioning,3,4,17,9
+7,Beginner's Guide,1,16,8,7
+8,HIIT Routine,6,20,18,5
+9,Quick Fit,6,3,6,11
+10,Power Hour,4,7,9,4
+11,Functional Training,15,10,1,19
+12,Yoga Stretch,1,18,2,20
+13,Pilates Basics,5,14,13,17
+14,Marathon Prep,16,5,12,15
+15,Sports Specific,15,8,10,16
+16,Weight Management,1,17,14,2
+17,Body Sculpt,5,6,4,12
+18,Total Body Definition,16,13,19,1
+19,Flex and Balance,5,11,15,20
+20,Recovery Routine,5,9,7,3

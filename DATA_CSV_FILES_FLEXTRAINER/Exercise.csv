@@ -1,0 +1,21 @@
+ExerciseID,ExerciseName,Sets,Reps,Goal,Type
+1,Squats,4,8,Muscle Building,Public
+2,Bench Press,3,10,Strength Training,Public
+3,Deadlifts,5,5,Strength Training,Private
+4,Leg Press,3,12,Weight Loss,Public
+5,Bicep Curls,3,15,Weight Gain,Private
+6,Tricep Dips,4,10,Weight Loss,Public
+7,Pull Ups,4,8,Muscle Building,Public
+8,Lat Pulldowns,3,12,Fitness,Private
+9,Push Ups,5,15,Fitness,Public
+10,Lunges,4,12,Weight Loss,Public
+11,Overhead Press,3,8,Strength Training,Private
+12,Plank,5,30 seconds,Fitness,Private
+13,Leg Raises,4,15,Weight Gain,Public
+14,Box Jumps,3,20,Weight Loss,Public
+15,Barbell Rows,4,10,Strength Training,Private
+16,Hammer Curls,3,12,Muscle Building,Public
+17,Treadmill Running,5,10 minutes,Weight Loss,Private
+18,Calf Raises,4,15,Strength Training,Public
+19,Seated Row,3,12,Muscle Building,Private
+20,Burpees,4,15,Fitness,Public

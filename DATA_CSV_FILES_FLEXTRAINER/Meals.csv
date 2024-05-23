@@ -1,0 +1,21 @@
+MealID,MealName,Carbohydrates,Fats,Proteins,PortionSize,allergens
+1,Chicken Bowl,30,30,40,1,Wheat
+2,Beef Stir Fry,35,25,40,1,Tree nuts
+3,Vegetable Pasta,50,20,30,1,Tree nuts
+4,Fish Tacos,25,35,40,1,Peanuts
+5,Quinoa Salad,45,25,30,1,Tree nuts
+6,Tofu Curry,40,30,30,1,Eggs
+7,Oatmeal with Nuts,55,25,20,1,Tree nuts
+8,Turkey Sandwich,40,20,40,1,Milk
+9,Greek Yogurt Parfait,30,20,50,1,Milk
+10,Smoothie Bowl,35,15,50,1,Milk
+11,Pork Stir Fry,30,30,40,1,Milk
+12,Spinach Salad,60,20,20,1,Eggs
+13,Salmon Avocado Rice,30,35,35,1,Shellfish
+14,Vegan Burrito,50,20,30,1,Wheat
+15,Cheese Omelette,20,40,40,1,Peanuts
+16,Lentil Soup,45,15,40,1,Milk
+17,Grilled Shrimp Salad,30,30,40,1,Tree nuts
+18,Roast Beef Sandwich,40,20,40,1,Milk
+19,Fruit and Nut Mix,50,30,20,1,Tree nuts
+20,Berry Protein Smoothie,40,20,40,1,Wheat

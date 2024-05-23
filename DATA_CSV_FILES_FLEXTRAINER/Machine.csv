@@ -1,0 +1,21 @@
+MachineID, Name, Last_Used
+1, Treadmill, 2020-01-01
+2, Elliptical, 2020-02-01
+3, Stationary Bike, 2020-03-01
+4, Rowing Machine, 2020-04-01
+5, Stair Climber, 2020-05-01
+6, Smith Machine, 2020-06-01
+7, Leg Press Machine, 2020-07-01
+8, Cable Crossover Machine, 2020-08-01
+9, Chest Press Machine, 2020-09-01
+10, Leg Curl Machine, 2020-10-01
+11, Lat Pull-Down Machine, 2020-11-01
+12, Pec Deck Machine, 2020-12-01
+13, Hack Squat Machine, 2020-01-01
+14, Arm Curl Machine, 2020-02-01
+15, Abdominal Crunch Machine, 2020-03-01
+16, Back Extension Machine, 2020-04-01
+17, Seated Leg Press, 2020-05-01
+18, Shoulder Press Machine, 2020-06-01
+19, Pull-Up Bar, 2020-07-01
+20, Hyperextension Bench, 2020-08-01
